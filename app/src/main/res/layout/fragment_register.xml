@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".RegisterFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/emailRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="joao@hotmail.com"
+        />
+
+    <EditText
+        android:id="@+id/senhaRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="********"/>
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar-se" />
+    <Button
+        android:id="@+id/toLoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VOltar ao Login" />
+
+</LinearLayout>

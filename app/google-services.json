@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "77015970117",
+    "project_id": "authenticator-4a242",
+    "storage_bucket": "authenticator-4a242.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:77015970117:android:ffc6d3cc0a7118f4954e2c",
+        "android_client_info": {
+          "package_name": "com.example.viniauthenticator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "77015970117-4ue0153tejvpnut695mgvuthvgml0f1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvI49ePtdQOe42hHEf2iDnlmPdfod45T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "77015970117-4ue0153tejvpnut695mgvuthvgml0f1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
